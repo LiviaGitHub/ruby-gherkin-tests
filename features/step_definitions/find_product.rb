@@ -3,6 +3,7 @@
 
 #test case 1
 Given(/^Amazon.de is opened$/) do
+  visit 'https://www.amazon.de/'
   have_content("Hallo! Anmelden")
 end
 

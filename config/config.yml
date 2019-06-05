@@ -1,0 +1,29 @@
+server: "hub-cloud.browserstack.com"
+user: "livialeitao1"
+key: "xPKBDazT6uxFU5pZpXqp"
+
+common_caps:
+  "browserstack.debug": true
+  "name": "Bstack-[Capybara] Parallel Test"
+  "browserstack.ie.enablePopups": true
+  "browserstack.safari.enablePopups": true
+
+browser_caps:
+  -
+    platform: 'MAC'
+    "browser": "chrome"
+  -
+    platform: 'MAC'
+    "browser": "firefox"
+  -
+    platform: 'MAC'
+    "browser": "internet explorer"
+    "browser_version": "11"
+  -
+    platform: 'MAC'
+    "browser": "edge"
+  -
+    platform: 'MAC'
+    "device": "iPhone 8 Plus"
+    "realMobile": "true"
+    "os_version": "11"
