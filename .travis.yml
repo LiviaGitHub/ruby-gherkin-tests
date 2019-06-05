@@ -13,14 +13,7 @@ script: bundle exec cucumber
 
 before_script:
         - bundle install
-        - gem install watir
-        - gem install colorize
-        - gem install rspec
-        - gem install cucumber
-        - gem install rake
-        - export DISPLAY=:99.0
-        - sh -e /etc/init.d/xvfb start
-        - sleep 3
+        - brew tap homebrew/cask && brew cask install chromedriver
 
 branches:
 only:
