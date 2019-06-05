@@ -1,0 +1,9 @@
+language: ruby
+cache: bundler
+
+before_script: 'bundle install'
+script: 'bundle exec cucumber'
+
+notifications:
+  email:
+    - bonifaciolivia@gmail.com
