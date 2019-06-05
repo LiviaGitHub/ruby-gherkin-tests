@@ -1,8 +1,30 @@
+sudo: required
 language: ruby
-cache: bundler
+dist: trusty
 
-before_script: 'bundle install'
-script: 'bundle exec cucumber'
+addons:
+  apt:
+    sources:
+      - google-chrome
+    packages:
+      - google-chrome-stable
+
+script: bundle exec cucumber
+
+before_script:
+        - bundle install
+        - gem install watir
+        - gem install colorize
+        - gem install rspec
+        - gem install cucumber
+        - gem install rake
+        - export DISPLAY=:99.0
+        - sh -e /etc/init.d/xvfb start
+        - sleep 3
+
+branches:
+only:
+- master
 
 notifications:
   email:
