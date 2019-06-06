@@ -14,7 +14,8 @@ In this public repository you will find tests for the Aklamio tasks.
 
 # Lint tool:
 
-* Go to https://app.codacy.com/project/LiviaGitHub/Aklamio/dashboard.
+* Codacy tool
+* Go to https://app.codacy.com/app/LiviaGitHub/Aklamio/commits?bid=12991227.
 
 # How run the Scenarios:
 

@@ -3,8 +3,8 @@ dist: trusty
 
 addons:
   browserstack:
-    username: "livialeitao1"
-    access_key: "xPKBDazT6uxFU5pZpXqp"
+    username: "livia10"
+    access_key: "dtdSfi8xioFqhsDhuGkJ"
 
 before_script:
 - bundle install
