@@ -11,6 +11,6 @@ class ProductPage <SitePrism::Page
   element :cart_button, '#add-to-cart-button'
   element :go_to_basket, '#hlb-view-cart-announce'
   element :size_256gb, '#size_name_2'
-  element :black_color, "#color_name_0"
+  element :black_color, '#color_name_0'
   element :added_to_cart_message, '#huc-v2-order-row-messages'
 end

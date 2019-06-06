@@ -1,6 +1,6 @@
-require "capybara/cucumber"
-require "selenium-webdriver"
-require "site_prism"
+require 'capybara/cucumber'
+require 'selenium-webdriver'
+require 'site_prism'
 require 'yaml'
 require 'browserstack/local'
 
