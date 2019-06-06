@@ -1,7 +1,7 @@
 # encoding: utf-8
 # !/usr/bin/env ruby
 
-#test case 1
+# test case 1
 Given(/^Amazon.de is opened$/) do
   visit 'https://www.amazon.de/'
   have_content('Hallo! Anmelden')
@@ -20,7 +20,7 @@ Then(/^I should see all information about my product$/) do
   @product_page.product_title.visible?
 end
 
-#test case 2
+# test case 2
 And(/^I add it to the shopping cart$/) do
   @product_page.cart_button.click
 end
@@ -30,17 +30,17 @@ Then(/^I should see the product in the cart$/) do
   have_content('Zum Einkaufswagen hinzugefügt')
 end
 
-#test case 3
+# test case 3
 And(/^I remove our product from the cart$/) do
   @product_page.go_to_basket.click
   click_button 'Löschen'
 end
 
 Then(/^I should see the cart empty$/) do
-   have_content('Ihr Einkaufswagen ist leer.')
+  have_content('Ihr Einkaufswagen ist leer.')
 end
 
-#test case 4
+# test case 4
 And(/^I change the memory option to 256gb$/) do
   have_content('Größe: 128 GB')
   @product_page.size_256gb.click
