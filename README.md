@@ -10,7 +10,7 @@ In this public repository you will find tests for the Aklamio tasks.
 
 # Continuos integration with Travis CI
 
-* Go to https://travis-ci.org/LiviaGitHub/Aklamio
+* Go to https://travis-ci.org/LiviaGitHub/Aklamio to see the latest builds
 
 # Lint tool:
 
@@ -21,7 +21,7 @@ In this public repository you will find tests for the Aklamio tasks.
 
 * Run `firefox=true bundle exec cucumber` open Firefox to execute the test suite
 * Run `chrome=true bundle exec cucumber` open chrome to execute the test suite
-* Run `cucumber` to execute the test suite without open the Browser
+* In the terminal it is possible to obtain the report of the tests
 
 # To run the tests on BrowserStack:
 
@@ -31,3 +31,4 @@ In this public repository you will find tests for the Aklamio tasks.
 * Open config.yml File
 * Replace the data in `Username and Access Keys`   
 * Run `bundle exec rake parallel` to execute the test suite
+* In the terminal it is possible to obtain the report of the tests
