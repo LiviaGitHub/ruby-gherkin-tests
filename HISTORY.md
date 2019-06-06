@@ -14,7 +14,7 @@ browserstack-local and parallel.
   - browser: "edge"
   - device: "iPhone 8 Plus"
 
-* The project has continuous integration, using for this: Travis.
+* The project has continuous integration, using for this: Travis CI.
 
 * The lint tool chosen was: https://app.codacy.com/
 

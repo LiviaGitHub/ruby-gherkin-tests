@@ -1,3 +1,4 @@
+# encoding: utf-8
 # !/usr/bin/env ruby
 
 # test case 1
@@ -7,7 +8,7 @@ Given(/^Amazon.de is opened$/) do
 end
 
 When(/^I search for iPhone XS 128gb$/) do
-  @main_page.search_input.set('iPhone XS 128gb white')
+  @main_page.search_input.set('iPhone XR 128GB White')
   @main_page.search_input.native.send_keys(:enter)
 end
 
