@@ -7,14 +7,16 @@ cucumber - capybara - selenium - webdriver.
 
 * The tests are running in 5 different browsers, using for this:
 browserstack-local and parallel.
-- browser: "chrome"
-- browser: "firefox"
-- browser: "internet explorer"
+  - browser: "chrome"
+  - browser: "firefox"
+  - browser: "internet explorer"
   browser_version: "11"
-- browser: "edge"
-- device: "iPhone 8 Plus"
+  - browser: "edge"
+  - device: "iPhone 8 Plus"
 
 * The project has continuous integration, using for this: Travis.
+
+* The lint tool chosen was: rubocop
 
 * I chose cucumber as a framework because I believe it is an excellent tool
 for documentation, structuring and reporting of tests.

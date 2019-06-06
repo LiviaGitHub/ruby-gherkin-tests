@@ -1,4 +1,5 @@
 # AklamioProject
+
 In this public repository you will find tests for the Aklamio automation team.
 
 # Requirements:
@@ -7,11 +8,13 @@ In this public repository you will find tests for the Aklamio automation team.
 * Install bundler: gem install bundler
 * Run `bundle install` to install the dependencies
 
-# To get started with Travis CI
+# Continus integration with Travis CI
 
-* Go to https://travis-ci.org/LiviaGitHub/Aklamio and Sign up with GitHub.
-* Accept the Authorization of Travis CI. You’ll be redirected to GitHub.
-* Click the green Activate button, and select the Aklamio repositorie.
+* Go to https://travis-ci.org/LiviaGitHub/Aklamio
+
+# How run the rubocop lint tool:
+
+* Run `rubocop` at the terminal.
 
 # How run the Scenarios:
 
