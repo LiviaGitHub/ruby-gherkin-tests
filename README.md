@@ -12,9 +12,9 @@ In this public repository you will find tests for the Aklamio automation team.
 
 * Go to https://travis-ci.org/LiviaGitHub/Aklamio
 
-# How run the rubocop lint tool:
+# Lint tool:
 
-* Run `rubocop` at the terminal.
+* Go to https://app.codacy.com/project/LiviaGitHub/Aklamio/dashboard.
 
 # How run the Scenarios:
 

@@ -16,7 +16,7 @@ browserstack-local and parallel.
 
 * The project has continuous integration, using for this: Travis.
 
-* The lint tool chosen was: rubocop
+* The lint tool chosen was: https://app.codacy.com/
 
 * I chose cucumber as a framework because I believe it is an excellent tool
 for documentation, structuring and reporting of tests.
