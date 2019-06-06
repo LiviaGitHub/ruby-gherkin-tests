@@ -8,7 +8,7 @@ Given(/^Amazon.de is opened$/) do
 end
 
 When(/^I search for iPhone XS 128gb$/) do
-  @main_page.search_input.set("iPhone XS 128gb")
+  @main_page.search_input.set("iPhone XS 128gb white")
   @main_page.search_input.native.send_keys(:enter)
 end
 
@@ -42,13 +42,16 @@ end
 
 #test case 4
 And(/^I change the memory option to 256gb$/) do
+  have_content('Größe: 128 GB')
   @product_page.size_256gb.click
 end
 
 And(/^I change the color to black$/) do
- have_content("Farbe: Schwarz")
+  have_content('Farbe: Weiß')
+  @product_page.black_color.click
 end
 
 Then(/^I should see both options selected$/) do
   have_content('Größe: 256 GB')
+  have_content("Farbe: Schwarz")
 end

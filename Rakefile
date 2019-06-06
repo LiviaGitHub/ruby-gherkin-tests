@@ -16,7 +16,7 @@ end
 task :parallel do |_t, _args|
   @num_parallel = 5
 
-  Parallel.map([*1..@num_parallel], in_processes: @num_parallel) do |task_id|
+Parallel.map([*1..@num_parallel], in_processes: @num_parallel) do |task_id|
     ENV['TASK_ID'] = (task_id - 1).to_s
     ENV['name'] = 'parallel_test'
     ENV['CONFIG_NAME'] = 'parallel'
