@@ -1,4 +1,3 @@
-# encoding: utf-8
 # !/usr/bin/env ruby
 
 # test case 1
