@@ -1,4 +1,4 @@
-# AklamioProject
+# Project
 
 In this public repository you will find tests for the Aklamio tasks.
 
