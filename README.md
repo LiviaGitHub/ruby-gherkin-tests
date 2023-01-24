@@ -1,7 +1,3 @@
-# Project
-
-In this public repository you will find tests for the Aklamio tasks.
-
 # Requirements:
 
 * Fork this repository https://github.com/LiviaGitHub/Aklamio
